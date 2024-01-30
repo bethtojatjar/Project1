@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image:url("../media/images/images.jpg");
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: minster5;
+    src: url("../media/fonts/minster5.ttf");
+}
+
+@font-face {
+    font-family: albert;
+    src: url("../media/fonts/AlbertTextBold.otf");
+}
+
+
+.menu ul{
+    list-style-type: none;
+    font-family: minster5;
+    background-color: rgb(15, 33, 17);
+    font-size: 85px;
+    width: 200px;
+}
+.menu li a {
+    display: inline-block;
+    width: 200px;
+    color: #7aa50c;
+    
+    padding:16px 16px 16px 0px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.menu li a:hover{
+    background-color: rgb(49, 88, 42);
+    color: rgb(169, 180, 6);
+}
+
+img{
+    width: 1000px;
+    margin-left: 400px;
+}
+
+.headers{
+    display: inline-flex;
+    position: absolute;
+    padding:20px 15px 15px 15px;
+    margin-left: 700px;
+    font-family: albert;
+    font-size: 30px;
+    color: #7aa50c;
+}
+
+.paragraphs{
+    font-size: 30px;
+    display: inline-flex;
+    padding: 5px 5px 5px 5px;
+    margin-left: 170px;
+}
+
+.subheader{
+    margin-left: 700px;
+    font-family: albert;
+    font-size: 30px;
+    color: #7aa50c;
+    padding:20px 15px 15px 15px;
+}
