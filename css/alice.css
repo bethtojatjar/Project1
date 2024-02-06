@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../media/images/rabbithole.png");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+@font-face {
+    font-family: minster5;
+    src: url("/media/fonts/minster5.ttf");
+}
+
+@font-face {
+    font-family: albert;
+    src: url("/media/fonts/AlbertTextBold.otf");
+}
+
+@font-face {
+    font-family: benegraphic;
+    src: url("../media/fonts/Benegraphic.ttf");
+}
+
+.menu ul{
+    list-style-type: none;
+    font-family: minster5;
+    overflow: hidden;
+    font-size: 85px;
+    background-color: rgb(15, 33, 17);
+}
+
+.menu li{
+    float: left;
+}
+.menu li a {
+    display: block;
+    color: #7aa50c;
+    padding:16px 35px;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background-color: rgb(49, 88, 42);
+    color: rgb(169, 180, 6);
+}
+
+
+.paragraphs{
+    font-size: 75px;
+    display: block;
+    padding: 0px 20px 20px 20px;
+    color: #7aa50c;
+    text-shadow: 1px 3px black;
+    font-family: benegraphic;
+}
+
+.headers{
+    padding:0px 15px 15px 15px;
+    margin-left: 25%;
+    font-family: albert;
+    font-size: 50px;
+    color: #7aa50c;
+    text-decoration: underline;
+    text-shadow: 2px 10px 4px black;
+}
+
+.gamecover{
+    width: 10%;
+    padding: 20px 20px 20px 640px;
+    display: inline-block;
+}
+
+.song{
+    position: static;
+    margin-left: 800px;
+}
+
+.screenshot{
+    padding: 25px 10px 10px 0px;
+    max-width: none;
+    width: 45%;
+    display: inline-block;
+}
+
+.info{
+    font-size: 75px;
+    position: absolute;
+    left: 725px;
+    top: 1590px;
+    display: inline;
+    color: #7aa50c;
+    float: right;
+    text-shadow: 1px 3px black;
+    font-family: benegraphic;
+}
+
+.gameplay{
+    float: right;
+    position: absolute;
+    top: 2090px;
+    left: 750px;
+    width: 550px;
+    display: inline-flex;
+}
+
+.abandonware{
+    font-size: 75px;
+    display: inline-block;
+    position: absolute;
+    left: 25px;
+    top: 2090px;
+    display: inline;
+    color: #7aa50c;
+    font-family:benegraphic;
+    text-shadow: 1px 3px black;
+}
+
+.yt-vid{
+    display: block;
+    margin-top: 650px;
+    margin-left: 800px;
+    width: 1000px;
+    height: 563px;
+    padding: 10px 10px 10px 10px;
+}
