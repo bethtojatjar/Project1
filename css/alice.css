@@ -11,12 +11,12 @@ body{
 
 @font-face {
     font-family: minster5;
-    src: url("/media/fonts/minster5.ttf");
+    src: url("../media/fonts/minster5.ttf");
 }
 
 @font-face {
     font-family: albert;
-    src: url("/media/fonts/AlbertTextBold.otf");
+    src: url("../media/fonts/AlbertTextBold.otf");
 }
 
 @font-face {
