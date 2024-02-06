@@ -26,7 +26,7 @@ body{
 
 .menu ul{
     list-style-type: none;
-    font-family: minster5;
+    font-family: albert;
     overflow: hidden;
     font-size: 85px;
     background-color: rgb(15, 33, 17);
@@ -60,7 +60,7 @@ body{
 .headers{
     padding:0px 15px 15px 15px;
     margin-left: 25%;
-    font-family: albert;
+    font-family: minster5;
     font-size: 50px;
     color: #7aa50c;
     text-decoration: underline;
